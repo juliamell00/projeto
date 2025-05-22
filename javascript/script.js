@@ -6,4 +6,4 @@ const idade = 20
 
 // Exibindo resultado
 console.log('Idade: ', idade)
-console.log(`Idade: ', ${idade}`)
+console.log(`Idade:  ${idade}`)
