@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #aaaad1;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 90%;
+
+
+}
+
+.container {
+    background-color: #e6c8ffae;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+
+button {
+    background-color: #aaaad1;
+    color: rgb(241, 234, 234);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultadoTabuada {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1 solid #9e2f2f;
+    padding-top: 15px;
+    font-size: 16px;
+
+}
+
+#resultadoTabuada p {
+    margin: 5px 0;
+}
+
+/* Efeito de LED */
+.led-effect {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 50px #ff0080, 0 0 75px #ff0080;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Tema escuro */
+body.dark-theme {
+    background-color: #1e1e2f;
+    color: #f5f5f5;
+}
+
+body.dark-theme .container {
+    background-color: #2e2e4f;
+}
+
+body.dark-theme input[type="number"] {
+    background-color: #3e3e5f;
+    color: #f5f5f5;
+    border: 1px solid #555;
+}
+
+body.dark-theme button {
+    background-color: #444;
+    color: #f5f5f5;
+}
+
+body.dark-theme button:hover {
+    background-color: #666;
+}
+
+body.dark-theme #resultadoTabuada {
+    border-top: 1px solid #555;
+    color: #f5f5f5;
+}
